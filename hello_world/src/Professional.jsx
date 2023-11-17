@@ -1,3 +1,5 @@
+import Button from './components/Button'
+import './App.css'
 
 function Professional() { 
   
@@ -11,6 +13,10 @@ function Professional() {
         <li>Data Science</li>
         <li>Business and Systems Analysis</li>
       </ol>
+      <div className='centerButton'>
+        <Button name='Login'/>
+        <Button name='Signin'/>
+      </div>
     </>
   )
 }
